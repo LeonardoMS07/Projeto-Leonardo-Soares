@@ -1,57 +1,57 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family: 'Exo 2',sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
-.header{
+.header {
     background-color: #000407;
     color: #32b9cd;
-    border-bottom:  3px solid #32b9cd ;
+    border-bottom: 3px solid #32b9cd;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
 
 
-.header .container{
+.header .container {
     display: flex;
     justify-content: space-between;
 }
 
 
-.navbar{
+.navbar {
     display: flex;
     list-style: none;
     width: 400px;
-    justify-content:space-between ;
+    justify-content: space-between;
     align-items: center;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: #E3B062;
 }
 
-.agora{
-    font-weight: bold ;
+.agora {
+    font-weight: bold;
 }
 
-.banner{
+.banner {
     background-image: url('img/imagem01.png');
     background-size: cover;
 }
 
-.banner .container{
+.banner .container {
     height: 550px;
-    display: flex ;
+    display: flex;
     color: white;
     align-items: center;
 }
 
-.banner .container.login{
+.banner .container.login {
     justify-content: center;
 }
 
@@ -61,45 +61,45 @@ body{
     margin-left: 20%;
 }
 
-.footer{
+.footer {
     background-color: #32b9cd;
     color: white;
 }
 
-.footer .container{
+.footer .container {
     display: flex;
     height: 150px;
     align-items: center;
     justify-content: center;
 }
 
-.card{
-background-color: #e5e5e5;
-color: #e6005a;
-width: 400px;
-height: 350px;
-display: flex ;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+.card {
+    background-color: #e5e5e5;
+    color: #e6005a;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.card h2{
+.card h2 {
     margin: 0;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     margin-top: 24px;
     width: 250px;
 }
 
-form label{
+form label {
     margin-top: 8px;
 }
 
-form input{
+form input {
     margin-top: 8px;
     outline: 3px solid #32b9cd;
     border: 0;
@@ -107,12 +107,169 @@ form input{
     padding: 8px;
 }
 
-form button{
+form button {
     margin-top: 16px;
     background-color: #e6005a;
     color: white;
     padding: 10px 15px;
     width: 120px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #e5e5e5;
+}
+
+.header {
+    background-color: #000407;
+    color: #32B9CD;
+    border-bottom: 3px solid #32B9CD;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #E3B062;
+}
+
+.agora {
+    font-weight: bold;
+}
+
+.banner .container {
+    height: 550px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.banner .container.login {
+    justify-content: center;
+}
+
+.banner p {
+    font-size: 36px;
+    width: 280px;
+    margin-left: 20%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.container.img {
+    height: 50vh;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt1 {
+    flex-direction: column;
+    text-align: center;
+}
+
+.txt2 {
+    flex-direction: column;
+    text-align: center;
+}
+
+.txt3 {
+    flex-direction: column;
+    text-align: center;
+}
+
+h3 {
+    color: #E60054;
+}
+
+p {
+    width: 17vw;
+}
+
+.footer {
+    background-color: #32B9CD;
+    color: #fff;
+}
+
+.footer .container {
+    display: flex;
+    height: 150px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card {
+    background-color: #e5e5e5;
+    color: #E60054;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 250px;
+}
+
+form label {
+    margin-top: 16px;
+}
+
+form input {
+    margin-top: 16px;
+    outline: 3px solid #32B9CD;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form button {
+    margin-top: 16px;
+    background-color: #E60054;
+    color: #fff;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cadastro button {
+    margin-top: 16px;
+    background-color: #E60054;
+    color: #fff;
+    padding: 10px 15px;
+    width: 150px;
     align-self: center;
     font-size: 18px;
     border: 0;
